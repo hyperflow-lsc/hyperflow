@@ -16,6 +16,7 @@ services:
     environment:
       - REDIS_URL=redis://redis/
       - HF_VAR_function=redisCommand
+      - HF_VAR_ENABLE_TRACING=1
     volumes:
       - ./wfdir:/home/wfdir
       - ./hyperflow/:/home/hyperflow/
