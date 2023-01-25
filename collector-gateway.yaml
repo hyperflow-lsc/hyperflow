@@ -1,3 +1,5 @@
+# PLACE THIS FILE IN FOLDER WHERE YOU KEEP hyperflow AND hyperflow-job-executor REPOS
+
 receivers:
  otlp:
    protocols:
